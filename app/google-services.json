@@ -1,0 +1,96 @@
+{
+  "project_info": {
+    "project_number": "941950709554",
+    "firebase_url": "https://untitled-testapp-default-rtdb.firebaseio.com",
+    "project_id": "untitled-testapp",
+    "storage_bucket": "untitled-testapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941950709554:android:567ce35c8dd37aaa1af12b",
+        "android_client_info": {
+          "package_name": "com.udindev.untitled"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941950709554-3c5j5temou8oh47pltu14n924e4v4hrc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.udindev.untitled",
+            "certificate_hash": "e40a5e938d8c6c99c243adbbccbf4724560f06b1"
+          }
+        },
+        {
+          "client_id": "941950709554-bfj3rrge30jp48sl19ic7mulg4mkc1fs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.udindev.untitled",
+            "certificate_hash": "b529f1c2465b95817d6592d90b68d5fbf6e576e9"
+          }
+        },
+        {
+          "client_id": "941950709554-eqglj5819pa12ua3u4q8h5bi639tivbj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.udindev.untitled",
+            "certificate_hash": "a34c6d1641a86062990afa55fecaff7c4b40fe84"
+          }
+        },
+        {
+          "client_id": "941950709554-eu7qni468h9s4d1ok3pd88nobdkcbud3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.udindev.untitled",
+            "certificate_hash": "400ece0d6cd0c758666d0676874981eb87a08436"
+          }
+        },
+        {
+          "client_id": "941950709554-g917e4ooiv6qu6dlvp1tsek1m2k8fec7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.udindev.untitled",
+            "certificate_hash": "0cd1693bb8dc0e4539541241b320b0b2869373bc"
+          }
+        },
+        {
+          "client_id": "941950709554-r8i2henifq018d94vrcrujdh89n3hu8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.udindev.untitled",
+            "certificate_hash": "87de428cefef44522640ed355e720891eab95503"
+          }
+        },
+        {
+          "client_id": "941950709554-suqutj61isvv5ac4gg1jfac8nsvid9dd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.udindev.untitled",
+            "certificate_hash": "a6cf90a1029d87494d6b241c78a3a44fddc98957"
+          }
+        },
+        {
+          "client_id": "941950709554-5ob5cbalohktheonlof3ra6i1v2uiqkm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC--11aqQL72dPVhhBXS7HBTUGvOcQ2YMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941950709554-5ob5cbalohktheonlof3ra6i1v2uiqkm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
