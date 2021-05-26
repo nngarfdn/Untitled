@@ -8,6 +8,91 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:941950709554:android:3d920f4c0dbf27991af12b",
+        "android_client_info": {
+          "package_name": "com.ariefzuhri.untitled2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941950709554-1i901mnesbr1ik5rp7o4tprlpb1lqdho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ariefzuhri.untitled2",
+            "certificate_hash": "0cd1693bb8dc0e4539541241b320b0b2869373bc"
+          }
+        },
+        {
+          "client_id": "941950709554-387mavhps43s3o9bn5u9pkag3qj1ov18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ariefzuhri.untitled2",
+            "certificate_hash": "a34c6d1641a86062990afa55fecaff7c4b40fe84"
+          }
+        },
+        {
+          "client_id": "941950709554-5t5quvcspp1l1fbjsudg7ajrut51kbp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ariefzuhri.untitled2",
+            "certificate_hash": "400ece0d6cd0c758666d0676874981eb87a08436"
+          }
+        },
+        {
+          "client_id": "941950709554-afbh98vkudp81pp1ecar0u5r8uov4t4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ariefzuhri.untitled2",
+            "certificate_hash": "a6cf90a1029d87494d6b241c78a3a44fddc98957"
+          }
+        },
+        {
+          "client_id": "941950709554-ll3nd3j6ierdrt28mc4vr1lk13c7uq92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ariefzuhri.untitled2",
+            "certificate_hash": "b529f1c2465b95817d6592d90b68d5fbf6e576e9"
+          }
+        },
+        {
+          "client_id": "941950709554-lm6udkqmlmupjr99chpubahdai6tdibu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ariefzuhri.untitled2",
+            "certificate_hash": "87de428cefef44522640ed355e720891eab95503"
+          }
+        },
+        {
+          "client_id": "941950709554-ra7572d51inbnagfo6vpv9k5a93upjjq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ariefzuhri.untitled2",
+            "certificate_hash": "e40a5e938d8c6c99c243adbbccbf4724560f06b1"
+          }
+        },
+        {
+          "client_id": "941950709554-5ob5cbalohktheonlof3ra6i1v2uiqkm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC--11aqQL72dPVhhBXS7HBTUGvOcQ2YMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941950709554-5ob5cbalohktheonlof3ra6i1v2uiqkm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:941950709554:android:567ce35c8dd37aaa1af12b",
         "android_client_info": {
           "package_name": "com.udindev.untitled"

@@ -2,7 +2,7 @@
 buildscript {
     ext {
         gradleVersion = '4.2.1'
-        kotlinVersion = '1.5.0'
+        kotlinVersion = '1.5.10'
         googleServicesVersion = '4.3.5'
     }
 
@@ -41,11 +41,15 @@ ext {
     navigationVersion = '2.3.5'
     legacySupportVersion = '1.0.0'
     lifecycleExtensionsVersion = '2.2.0'
+    coreKTXVersion = '1.5.0'
     kotlinLifecycleVersion = '2.3.1'
 
     junitVersion = '4.13.2'
     junitExtversion = '1.1.2'
     espressoVersion = '3.3.0'
+
+    retrofitVersion = '2.9.0'
+    okhttpVersion = '4.9.0'
 
     firebaseVersion = '28.0.1'
     playServicesAuthVersion = '19.0.0'

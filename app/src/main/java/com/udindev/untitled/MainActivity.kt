@@ -1,21 +1,25 @@
 package com.udindev.untitled
 
+import android.content.Intent
 import android.location.Location
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.udindev.untitled.data.model.Hospital
+import com.udindev.untitled.databinding.ActivityMainBinding
+import com.udindev.untitled.testingarief.notification.ui.NotificationActivity
 
 
 class MainActivity : AppCompatActivity() {
 
     companion object{
-        private const val TAG = "MainActivity"
+        private const val TAG = "NotificationActivity"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        val binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         var latLokasiku = -7.93861
         var longLokasiku = 110.25056
@@ -35,5 +39,10 @@ class MainActivity : AppCompatActivity() {
         var jarak = loc1.distanceTo(loc2)
 
         Log.d(TAG, "onCreate: jaraknya $jarak")
+
+        binding.btnNotification.setOnClickListener { view ->
+            val intent = Intent(this, NotificationActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

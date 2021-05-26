@@ -17,6 +17,8 @@ android {
         versionName "1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String" , "SERVER_KEY" , '"AAAA21CjLzI:APA91bGg28P_ftQmhQOXd9-6xCYGjVHUawumQEe4uRXeQDyhebUfH3AgUGljgPpVxc2-NUcENI5BtqPy7FuuQPuPGOYQIJz42z9VUd7tvmX3aZuYMpj0T_szoy-BKoHMADhf7nw-C4yU"')
     }
 
     buildFeatures {
@@ -50,21 +52,31 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
     implementation "androidx.legacy:legacy-support-v4:$legacySupportVersion"
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycleExtensionsVersion"
-    implementation "androidx.core:core-ktx:$kotlinVersion"
+    implementation "androidx.core:core-ktx:$coreKTXVersion"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$kotlinLifecycleVersion"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
 
     // Testing
     testImplementation "junit:junit:$junitVersion"
     androidTestImplementation "androidx.test.ext:junit:$junitExtversion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
 
+    // Networking
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+
+    // Parsing the JSON format
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+
+    // Network logging
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
+
     // Firebase
     implementation platform("com.google.firebase:firebase-bom:$firebaseVersion")
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-auth'
+    implementation "com.google.firebase:firebase-core"
     implementation 'com.google.firebase:firebase-database'
     implementation 'com.google.firebase:firebase-firestore'
+    implementation "com.google.firebase:firebase-messaging"
     implementation 'com.google.firebase:firebase-storage'
     implementation "com.google.android.gms:play-services-auth:$playServicesAuthVersion"
 }
