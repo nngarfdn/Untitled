@@ -13,6 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Untitled"
         tools:ignore="AllowBackup">
+        <activity android:name=".testingarief.main.ReceiveNotificationActivity"/>
+        <activity android:name=".testingarief.main.SendNotificationActivity" />
+        <activity android:name=".testingarief.main.HospitalDashboardActivity" />
+        <activity android:name=".testingarief.main.PatientDashboardActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,8 +24,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".testingarief.notification.ui.LoginActivity"/>
-        <activity android:name=".testingarief.notification.ui.NotificationActivity"/>
+        <activity android:name=".testingarief.notification.ui.LoginActivity" />
+        <activity android:name=".testingarief.notification.ui.NotificationActivity" />
+
         <service
             android:name=".testingarief.notification.service.MyFirebaseMessagingService"
             android:enabled="true"

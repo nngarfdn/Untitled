@@ -15,4 +15,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Buka Notifikasi"/>
+
+    <Button
+        android:id="@+id/btn_patient_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dasbor Pasien"/>
+
+    <Button
+        android:id="@+id/btn_hospital_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dasbor Rumah Sakit"/>
 </LinearLayout>

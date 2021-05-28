@@ -7,6 +7,8 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.udindev.untitled.data.model.Hospital
 import com.udindev.untitled.databinding.ActivityMainBinding
+import com.udindev.untitled.testingarief.main.HospitalDashboardActivity
+import com.udindev.untitled.testingarief.main.PatientDashboardActivity
 import com.udindev.untitled.testingarief.notification.ui.NotificationActivity
 
 
@@ -24,9 +26,9 @@ class MainActivity : AppCompatActivity() {
         var latLokasiku = -7.93861
         var longLokasiku = 110.25056
 
-        var lok1 = Hospital("SDN 1 Sanden",  -7.894125,110.338075)
-        var lok2 = Hospital("SMPN 2 Pandak",  -7.9402, 110.21917)
-        var lok3 = Hospital("SMP TD 2  Dlingo", -7.93343, 110.42871)
+        var lok1 = Hospital("0", "SDN 1 Sanden",  -7.894125,110.338075)
+        var lok2 = Hospital("1", "SMPN 2 Pandak",  -7.9402, 110.21917)
+        var lok3 = Hospital("2", "SMP TD 2  Dlingo", -7.93343, 110.42871)
 
         val loc1 = Location("")
         loc1.latitude = latLokasiku
@@ -42,6 +44,16 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnNotification.setOnClickListener { view ->
             val intent = Intent(this, NotificationActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnHospitalDashboard.setOnClickListener { view ->
+            val intent = Intent(this, HospitalDashboardActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnPatientDashboard.setOnClickListener { view ->
+            val intent = Intent(this, PatientDashboardActivity::class.java)
             startActivity(intent)
         }
     }

@@ -45,8 +45,12 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
         String title = remoteMessage.getData().get("title");
         String message = remoteMessage.getData().get("message");
+        String responseLogId = remoteMessage.getData().get("responseLogId");
+        int numberOfCalls = Integer.parseInt(remoteMessage.getData().get("numberOfCalls"));
 
         Intent intent = new Intent(this, NotificationActivity.class);
+        intent.putExtra("extra_response_log_id", responseLogId);
+        intent.putExtra("extra_number_of_calls", numberOfCalls);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, REQUEST_MY_NOTIFICATION, intent, PendingIntent.FLAG_ONE_SHOT);
 
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
